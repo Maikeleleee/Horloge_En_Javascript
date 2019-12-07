@@ -2,7 +2,7 @@
 
 const secondDiv = document.querySelector('.second-hand');        // Récupère la classe des secondes.
 const minDiv = document.querySelector('.min-hand');         // Récupère la classe des minutes.
-const hourDiv = document.querySelector('hour-hand');        // Récupère la classe des heures.
+const hourDiv = document.querySelector('.hour-hand');        // Récupère la classe des heures.
 
 function setDate() {
      const now = new Date();       // Récupère la date actuelle.
