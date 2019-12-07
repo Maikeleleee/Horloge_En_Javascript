@@ -20,5 +20,6 @@ function setDate() {
      const hourDeg = ((hour / 12) * 360) + ((mins / 60) * 30) + 90;        // On divise par 12 car il y a 12 heures + les minutes qui se sont déjà écouler dans l'heure.
      hourDiv.style.transform = `rotate(${hourDeg}deg)`;          // Crée une rotation sur la classe heures.
 }
+
 setInterval (setDate,1000);   // Appelle la fonction setDate toute les 1000ms (1 seconde).
 
